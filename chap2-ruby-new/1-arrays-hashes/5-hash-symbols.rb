@@ -7,3 +7,5 @@ inst_section = {
 }
 
 puts "An oboe is a #{inst_section[:oboe]} instrument"
+
+#This is the correct form of defining a hash!

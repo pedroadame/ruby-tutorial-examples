@@ -1,8 +1,8 @@
 today = Time.now
-if today.saturday?
-  puts "Do chores around the house"
+if today.saturday? or today.sunday?
+  puts 'Do chores around the house'
 elsif today.tuesday?
-  puts "A trabajar en Gavisa"
+  puts 'It\'s tuesday'
 else
-  puts "Es otro dia"
+  puts 'It\'s not tuesday nor weekend'
 end

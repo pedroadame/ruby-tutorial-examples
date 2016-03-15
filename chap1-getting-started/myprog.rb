@@ -1,6 +1,5 @@
-puts "Hello, Ruby programmer"
+puts 'Hello, Ruby programmer'
 puts "It is now #{Time.now}"
-def a
- aaaaaaaaa
-end
 
+#Use single quotes for simple strings, and double quotes for
+#strings with substitution!
